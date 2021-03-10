@@ -1,9 +1,9 @@
-package api.delivery.pizza.apideliverypizza.repository;
+package api.delivery.pizza.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import api.delivery.pizza.apideliverypizza.entity.User;
+import api.delivery.pizza.entity.User;
 
 
 // This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository

@@ -1,4 +1,4 @@
-package api.delivery.pizza.apideliverypizza;
+package api.delivery.pizza;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

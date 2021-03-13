@@ -25,7 +25,7 @@ public class MenuGroupItem {
 	int idMenuGroupItem;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "id_menu_group")
+    @JoinColumn(name = "id_menu_group", nullable = false)
 	MenuGroup menuGroup;
 	
 	@Column(nullable = false)

@@ -16,7 +16,7 @@ public class MenuGroup {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "id_user")
+	@Column(name = "id_menu_group")
 	int idMenuGroup;
 
 	@Column(nullable = false)
